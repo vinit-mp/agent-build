@@ -1,0 +1,16 @@
+[project]
+name = "agent-build"
+version = "0.1.0"
+description = "ADK agent that analyzes document collections in batches."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk>=2.11.0",
+    "google-genai>=2.19.0",
+    "google-cloud-secret-manager>=2.23.2",
+    "aiohttp>=3.14.4",
+    "python-dotenv>=1.2.2",
+]
+
+[tool.uv]
+package = false
